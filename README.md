@@ -1,3 +1,5 @@
+implementation of grpc-web using react, courtesy of adjoeio: https://github.com/adjoeio/grpc-react/tree/main
+
 ## Description
 
 This is an example repo to call a grpc service from a react client, inspired by [this this repo](https://github.com/norbjd/grpc-web-nginx-envoy)
@@ -27,3 +29,13 @@ I'm using create-react-app with typescript and grpc-web, grpc & proto generated 
 ```
 ./proto-gen-grpc-web.sh
 ```
+# grpc-react
+implementation of grpc-web using react, initial commit courtesy of adjoeio
+
+to run: 
+start docker;
+in terminal - 
+cd to root directory of folder,
+run: docker-compose build,
+run: docker-compose up,
+after build is finishing and dev server is running navigate to localhost 8081
